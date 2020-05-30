@@ -8,12 +8,12 @@ Cryptocurrency created in Chile (2016) as a means of payment, focused on trainin
 Mnemotechnic for Prosus Money is **xPR**.
 
 
-## 💾 Install on Ubuntu 16 
+## 💾 Build on Linux (Ubuntu, Debian, etc)
 ```
 (sudo)
 apt-get update
 apt-get upgrade
-apt-get install build-essential git cmake libboost1.58-all-dev
+apt-get install build-essential git cmake libboost-all-dev
 git clone https://github.com/ProsusCorp/prosus
 ```
 
@@ -33,13 +33,14 @@ cmake ..
 make
 ```
 
-
-## 💾 other OS
+## 💾 Build on other OS
 [Windows](http://wiki.prosus.money)
 
 [macOS](http://wiki.prosus.money)
 
 
+##
+---
 ## :star: Official web sites 
 * [Home](http://prosus.money)
 * [Block Explorer](http://explorer.prosus.money)
